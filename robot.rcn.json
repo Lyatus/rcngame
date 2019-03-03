@@ -44,6 +44,7 @@
     "    flip_x = false;",
     "  }",
     "  ",
+    "  // Lol",
     "  spr(spr_index, x-4, y-16, 1, 2, flip_x);",
     "}"
   ],
