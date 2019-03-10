@@ -112,8 +112,8 @@
     "}",
     "",
     "function map_move(x, y) {",
-    "  mapx = mid(0, mapx + x, 896);",
-    "  mapy = mid(0, mapy + y, 384);",
+    "  mapx = mid(0, flr(mapx + x), 896);",
+    "  mapy = mid(0, flr(mapy + y), 384);",
     "}"
   ],
   "rom": {
