@@ -110,8 +110,6 @@
     "  ",
     "  // Draw sprite",
     "  spr(spr_index, x-mapx-4, y-mapy-16, 1, 2, flip_x);",
-    "  ",
-    "  circfill(x-mapx, y-mapy, 12, 0);",
     "}",
     "",
     "function is_on_ground(offx, offy) {",
